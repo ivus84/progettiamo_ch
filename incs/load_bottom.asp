@@ -116,7 +116,8 @@ If hypenetalang="ti" Then hypenetalang="it"
 	if projectsFound=False AND ishomepage then addscript=addscript&"hideHome()"
 	%>
 	    iniSite('<%=mode%>','<%=smode%>');
-	    <%=addscript%>
+	<%=addscript%>
+        <%'addscriptP = convertfromutf8(addscriptp)%>
 	    queuedScript="<%=addscriptP%>"
 	});
 	</script>

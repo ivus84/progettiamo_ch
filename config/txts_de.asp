@@ -168,6 +168,12 @@ str_crea_account="KONTO ERSTELLEN"
 str_prev_page="Zurück zur vorherigen Seite"
 str_pass_recover="Passwort wiederherstellen"
 
+     str_or= "oppure"
+str_already_registered = "Bist Du bereits in der Community registriert?<br/>Dann f&uuml;lle unten aus."
+str_register = "Noch nicht registriert?<br/>Bereits&nbsp;<span style='color: #f0af10'>#num_pers_reg#</span> Besucher  sind der Gemeinschaft von progettiamo.ch beigetreten.<br/>Deine Daten werden vertraulich behandelt. Als Mitglied von progettiamo.ch erh&auml;ltst Du eine Newsletter &uuml;ber die Projekte und unsere Initiativen.<br/><br/><br/>Jetzt bist Du dran!"
+    str_register_1 = "REGISTRATI"
+
+
 'SIGNUP PAGE
 str_signup_main="Erstelle dein Konto auf progettiamo.ch"
 str_campi_obbligatori="Pflichtfelder"

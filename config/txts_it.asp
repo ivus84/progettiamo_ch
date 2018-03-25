@@ -5,7 +5,7 @@ str_sosteniamo="sosteniamo"
 str_doniamo="doniamo"
 str_finanziamo="finanziamo"
 str_realizzati="realizzati"
-str_deducibile="Le donazioni a questo progetto sono fiscalmente deducibili in quanto vengono versate a un ente di pubblica utilità."
+str_deducibile="Le donazioni a questo progetto sono fiscalmente deducibili in quanto vengono versate a un ente di pubblica utilit&agrave;."
 str_trepublick="Dona un po’ del tuo tempo!"
 str_trepublick1="Di cosa si tratta?"
 str_friends="Amici di Progettiamo.ch"
@@ -138,12 +138,12 @@ str_inserire_cifra="inserire cifra"
 str_minimo="minimo"
 str_premere_tasto="e premere il tasto"
 str_altri_utenti_promettono="Gli altri utenti inviano le promesse di finanziamento al tuo progetto da qui."
-str_promessa_sara_registrata="La promessa di finanziamento sarà registrata unitamente ai tuoi dati di contatto e verrà trasmessa ai promotori solo qualora il progetto raggiunga o superi la propria cifra-obiettivo di finanziamento."
+str_promessa_sara_registrata="La promessa di finanziamento sar&agrave; registrata unitamente ai tuoi dati di contatto e verr&agrave; trasmessa ai promotori solo qualora il progetto raggiunga o superi la propria cifra-obiettivo di finanziamento."
 str_scarica_guida_finanziatori="Scarica la guida per i finanziatori di progetto"
 str_location_guida_finanziatori="/download/progettiamo_guida_finanziatori.pdf"
 
 str_vota_progetto="Vota questo progetto"
-str_gia_votato_progetto="Hai già votato questo progetto."
+str_gia_votato_progetto="Hai gi&agrave; votato questo progetto."
 str_vota_messaggio="Hai attribuito #rate# punti al progetto<br/><br/>Grazie per aver votato"
 
 str_visualizza_commenti="visualizza commenti"
@@ -156,7 +156,7 @@ str_comments="COMMENTI"
 str_replica="Replica"
 
 'LOGIN PAGE
-str_login_main="Se disponi già di un account, accedi qui"
+str_login_main="Se disponi gi&agrave; di un account, accedi qui"
 str_email="email"
 str_password="password"
 str_entra="ENTRA"
@@ -167,10 +167,12 @@ str_facebook_login="Accedi con Facebook"
 str_crea_account="CREA UN ACCOUNT"
 str_prev_page="torna alla pagina precedente"
 str_pass_recover="Recupero password"
+
 str_or= "oppure"
 str_already_registered = "Sei gi&agrave; registrato alla comunit&agrave;?<br/>Allora completa qui sotto."
 str_register = "Non sei gi&agrave; registrato?<br/>Gi&agrave;&nbsp;<span style='color: #f0af10'>#num_pers_reg#</span> persone sono entrate a far parte della comunit&agrave; di progettiamo.ch.<br/>I tuoi dati resteranno al sicuro e riceverai la nostra newsletter informativa sui progetti e le nostre iniziative.<br/><br/><br/>Ora tocca a te!"
     str_register_1 = "REGISTRATI"
+
 'SIGNUP PAGE
 str_signup_main="Crea il tuo account su progettiamo.ch"
 str_campi_obbligatori="Campi Obbligatori"
@@ -183,7 +185,7 @@ str_disclaim="Cliccando su questo pulsante si accettano le condizioni di utilizz
 'NEWSLETTER PAGE
 str_newsletter_main="Iscrizione alla newsletter"
 str_accept_condition="Cliccando questo pulsante<br/>si dichiara di aver letto e accettato<br/>le condizioni di adesione"
-str_accept_condition_1="Cliccando su questo pulsante si accetta di ricevere invii <nobr>e-mail</nobr> dal sito progettiamo.ch con informazioni e attività ad esso relazionate. Viene garantito un trattamento dei dati in osservanza della legge 235.1 Legge Federale del 19 giugno 1992 sulla protezione dei dati (LPD)."
+str_accept_condition_1="Cliccando su questo pulsante si accetta di ricevere invii <nobr>e-mail</nobr> dal sito progettiamo.ch con informazioni e attivit&agrave; ad esso relazionate. Viene garantito un trattamento dei dati in osservanza della legge 235.1 Legge Federale del 19 giugno 1992 sulla protezione dei dati (LPD)."
 str_invia_richiesta="Invia richiesta"
 
 'NEWSLETTER UNSUBSCRIBE PAGE
@@ -232,14 +234,14 @@ str_new_password="Nuova password"
 str_repeat_password="Ridigita password"
 
 str_mod_email="Modifica e-mail"
-str_mod_email_msg="Per attivare il nuovo indirizzo e-mail verrà inviata una mail con richiesta di conferma al nuovo indirizzo specificato"
+str_mod_email_msg="Per attivare il nuovo indirizzo e-mail verr&agrave; inviata una mail con richiesta di conferma al nuovo indirizzo specificato"
 str_new_email="Nuovo indirizzo email"
 
 str_mod_rec_email="Modifica e-mail di recupero"
-str_mod_rec_email_msg="Questo indirizzo e-mail ti permetterà di recuperare la password nel caso tu smarrisca i dati del tuo account"
+str_mod_rec_email_msg="Questo indirizzo e-mail ti permetter&agrave; di recuperare la password nel caso tu smarrisca i dati del tuo account"
 
 str_delete_account="Cancellazione account"
-str_delete_account_msg="Selezionando il tasto ""Conferma"" riceverete al vostro indirizzo e-mail un link per rendere effettiva la cancellazione dell'account.<br/><br/>Cancellando l'account non avrà più accesso al suo profilo.<br/>Eventuali promesse di sostegno registrate rimarranno valide fino alla chiusura dei progetti da lei sostenuti."
+str_delete_account_msg="Selezionando il tasto ""Conferma"" riceverete al vostro indirizzo e-mail un link per rendere effettiva la cancellazione dell'account.<br/><br/>Cancellando l'account non avr&agrave; più accesso al suo profilo.<br/>Eventuali promesse di sostegno registrate rimarranno valide fino alla chiusura dei progetti da lei sostenuti."
 str_delete_confirm="conferma cancellazione"
 
 

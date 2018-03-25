@@ -35,7 +35,7 @@ var str_par_del = "Eliminare il paragrafo?"
 var str_no_elment ="Contenuto non disponibile"
 
 var str_promise_sending = "Invio promessa in corso ..."
-var str_promise_sent = "La sua promessa di finanziamento di Fr. <b>#</b> &egrave; stata registrata.<br/><br/>Riceverà una conferma al suo indirizzo e-mail.<br/><br/>Grazie per il vostro sostegno al progetto."
+var str_promise_sent = "La sua promessa di finanziamento di Fr. <b>#</b> &egrave; stata registrata.<br/><br/>Ricever&agrave; una conferma al suo indirizzo e-mail.<br/><br/>Grazie per il vostro sostegno al progetto."
 var str_promise_conf = "Confermare la promessa di"
 var str_promise_pre = "Per poter effettuare la tua promessa di finanziamento devi aver effettuato il login.<br/>Se non hai ancora effettuato il login o devi creare il tuo account, premendo su ACCEDI PER CONFERMARE potrai agevolmente collegarti al sito e ritornare direttamente a questo punto"
 var str_promise_conf_access = "ACCEDI PER CONFERMARE"

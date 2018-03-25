@@ -18,7 +18,9 @@ End If
 hn=0
 Do While Not rec1.eof 
 nB=rec1("TA_nome")
+    nb = convertfromutf8(nb)
 tB=rec1("TX_testo")
+    tb = convertfromutf8(tb)
 fB=rec1("AT_file")
 refB=rec1("ID")
 wV=vB

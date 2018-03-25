@@ -30,7 +30,7 @@ plink=linkMaker(ptitle)
 <p>
 Inserisci un video di presentazione del tuo progetto <br/>
 per incentivare le persone al suo finanziamento.<br/>
-Chi inserisce un video ha più possibilità di essere finanziato!
+Chi inserisce un video ha pi&ugrave; possibilit&agrave; di essere finanziato!
 </p>
 <p class="vEmbed" >
 <%=advimg%>

@@ -1,5 +1,6 @@
 <!--METADATA TYPE="TypeLib" UUID="00000200-0000-0010-8000-00AA006D2EA4" -->
 <!--#INCLUDE VIRTUAL="/incs/load_connection.asp"-->
+<!--#INCLUDE VIRTUAL="/incs/common_functions.asp"-->
 <%
 load=request("load")
 refpage=request("refpage")
@@ -56,6 +57,7 @@ If pagemode="progetti" Then
 	    If Len(pImage)=0 OR isnull(pImage) Then pImage=imgb1
 	    addDesc=rec("TE_abstract")
 	    setTitle=rec("TA_nome")
+        'settitle = convertfromutf8(settitle)
 	    addKeys=rec("TX_keywords")
 	    If Len(addKeys)>0 Then addKeywords=addKeys
 	End If

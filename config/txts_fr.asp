@@ -168,6 +168,11 @@ str_crea_account="CR&eacute;EZ UN COMPTE"
 str_prev_page="retournez à la page pr&eacute;c&eacute;dente"
 str_pass_recover="R&eacute;cup&eacute;rer votre mot de passe"
 
+str_or= "oppure"
+str_already_registered = "Es-tu d&eacute;j&agrave; inscrit &agrave; la communaut&eacute;?<br/>Puis compl&egrave;te ci-dessous."
+str_register = "Pas encore enregistr&eacute;?<br/>D&eacute;j&agrave;&nbsp;<span style='color: #f0af10'>#num_pers_reg#</span> personnes ont rejoint la communaut&eacute; de progettiamo.ch.<br/>Tes donn&eacute;es resteront en s&eacute;curit&eacute; et tu recevras notre newsletter sur les projets et nos initiatives.<br/><br/><br/>Maintenant c'est ton tour!"
+    str_register_1 = "REGISTRATI"
+
 'SIGNUP PAGE
 str_signup_main="Cr&eacute;ez votre compte sur progettiamo.ch"
 str_campi_obbligatori="Champs obligatoires"
