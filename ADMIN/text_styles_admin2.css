@@ -1,0 +1,11 @@
+p.titolo { font-family:  Helvetica, arial, sans-serif;  text-transform:uppercase; white-space:nowrap; color: #181818; font-size: 18px; margin:0px; max-width:23%; font-weight:700; padding-right:50px; padding-bottom:3px; line-height:24px; border-bottom: solid 6px #cf041d;} 
+p { font-family:  Helvetica, arial, sans-serif;  font-size:13px; line-height:17px; padding:0px;}
+p strong{ font-family: Helvetica, arial, sans-serif;   font-size:13px; line-height:17px; padding:0px;}
+p img { max-width: 100%; }
+
+
+body { font-family:  Helvetica, arial, sans-serif;  color: #111; text-decoration:none;  font-size:13px; line-height:17px;}
+
+a {color: #4b5c66;}
+td { font-family: Helvetica, arial, sans-serif; font-size:13px; line-height:17px; }
+li{ margin-top:5px; padding-right:20px}

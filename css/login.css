@@ -1,0 +1,163 @@
+
+body { 
+margin:0px; 
+background: #fff; 
+text-align:center; 
+width:100%; 
+font-family:Helvetica, Arial, Sans-serif; 
+-webkit-font-smoothing: antialiased;
+font-smoothing: antialiased;
+image-rendering: -moz-crisp-edges;
+image-rendering:-o-crisp-edges;
+image-rendering: webkit-optimize-contrast;
+image-rendering: optimizeQuality;
+-ms-interpolation-mode: bicubic;
+overflow-y:scroll;
+min-width:600px;
+}
+
+body.fancy {text-align:left; margin:20px; overflow-y: auto; }
+body.fancy p { font-size:15px; line-height:19px; text-align:justify; width:85% }
+body.fancy p.title {font-weight:bold; margin:0px 0px 30px 0px; font-size:28px;}
+body.fancy input { border:solid 0px; background:#ebecf0; color:#7f8289; font-size:14px; padding:15px; width:285px; height:12px; margin-bottom:1px; -webkit-appearance:none; -webkit-autofill:none }
+
+body.fancy input:-webkit-autofill {
+    color: #7f8289 !important; background:#ebecf0 !important;
+	-webkit-box-shadow: 0 0 0 1000px #ebecf0 inset;
+}
+
+body.fancy input.err:-webkit-autofill {
+    color: #ff0000 !important; background:#ffd2d3 url(/images/err.png) right top no-repeat;
+	-webkit-box-shadow: 0 0 0 1000px #ffd2d3 inset;
+}
+
+/* START Mailchimp */
+body.fancy .mc-field-group {position: relative;}
+body.fancy input.mce_inline_error {border:solid 0px; background:#ffd2d3 url(/images/err.png) right top no-repeat !important; color:#ff1d25 !important; height:12px; margin-bottom:1px;}
+body.fancy .response {background: #7f8289; color: #ffe; font-size:12px; line-height:14px; padding:10px; text-align:justify; width:295px;}
+	body.fancy #mce-success-response {border: 1px solid #7AC943;}
+	body.fancy #mce-error-response {border: 1px solid #ff1d25;}
+/* END Mailchimp */
+
+body.fancy label {position:absolute; top:2px; left:12px;color:#000; float:left; color: #7f8289; font-size:14px; }
+body.fancy input.err { border:solid 0px; background:#ffd2d3 url(/images/err.png) right top no-repeat !important; color:#ff1d25 !important; height:12px; margin-bottom:1px; }
+
+body.fancy input.pwd, body.fancy #eml {padding: 15px 15px 15px 80px !important; width:220px !important; }
+
+
+body.fancy input:focus { color: #292f3a; font-weight:bold; outline:none }
+body.fancy input.str { font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
+body.fancy input.sb { background:#7f8289 url(../images/check.png) right top no-repeat; text-align:left; color:#fff; width:285px; height:22px; text-transform: uppercase; font-size:14px; white-space:nowrap; padding: 10px 15px 10px 15px; cursor:pointer; border:0px;}
+body.fancy input.sbs { background:#7f8289 url(../images/check_ove.png) right top no-repeat; }
+body.fancy input.ch { background:#363d49;  border-radius:10px; text-align:center; color:#fff; width:103px; height:20px; text-transform: uppercase; font-size:14px; white-space:nowrap; padding: 10px 15px 10px 15px; cursor:pointer; border:solid 1px #363d49;}
+body.fancy input.ch:hover { background:#292f3a; }
+body.fancy a {color: #e43d46; text-decoration:none; }
+body.fancy a:hover {color: #1eb0be; }
+
+body.nletter { width:98%; background: #292f3a; color: #fff; }
+div.fancyNoShadow {  border-radius:0px; box-shadow: none !important; -webkit-box-shadow: none !important;}
+
+img, a, img:focus, a:focus {outline:none; border:0px;}
+
+#header { position: fixed; z-index:2; text-align:left; width:100%; height:42px; overflow:hidden; background-color: #292f3a;}
+
+#header div.content, #slider div.content { position: relative; text-align:left; min-width:960px; width:100%; height:100%; margin:0 auto; color: #fff}
+
+#slider { position: absolute; z-index:1; left:0px; top:42px; width:100%; height:418px;  background-color: #292f3a; }
+#slider div.container, #header div.container { position:relative; margin:0 auto; width:960px; height:418px;}
+
+#header a.mm {color:#fff; text-decoration:none; font-size:12px; padding:2px 0px 13px 0px; float:left; margin-right:56px; }
+#header a.current {color:#9ba1b3; background: url(/images/bg_a.png) center bottom no-repeat; }
+#header a.imgl { float:left; padding:0px 1px 0px 0px;}
+#header a.mm:hover { color:#9ba1b3; } 
+#slider img.slideshow { position:absolute; left:0px; top:0px; width:100%; height:100%; background-size:2000px auto; background-position:center -42px; }
+#slider div.content img.logo { position: relative; float:left; margin:40px 10px 33px 10px; background-image:url(/images/progettiamo_logo.png); width:475px; height:156px}
+#slider div.content div.payoff { position: relative; float:left; margin:0px 10px; clear:left; color:#fff; font-size:34px; line-height:42px; width:620px;}
+#slider div.content div.nletter { position: relative; float:left; margin:5px 10px 0px 10px; color:#fff; font-size:14px; line-height:16px; width:300px;}
+#slider div.content div.nletter p {margin:0px 0px 30px 0px;}
+
+#content { position: absolute; z-index:1; left:0px; top:462px; width:100%; }
+#centered { position: relative; text-align:left; width:100%; min-width:960px;  margin:0 auto; min-height:900px;}
+#centered div.content_block { float:left; clear:both; width:100%; padding-bottom: 0px; background-image:url(/images/bgWhite.png); background-position:center -2px; background-repeat:no-repeat;}
+#centered div.content_block div.container { position:relative; margin:0 auto; width:960px;}
+#centered div.grey  {background-color: #ebecf0; background-image:url(/images/bgGrey.png); background-position:center -2px; background-repeat:no-repeat; }
+#centered div.blue  {background-color: #292f3a; background-image:url(/images/vuoto.gif); background-position:center top; background-repeat:no-repeat; height:300px; }
+#centered div.blue p {color:#fff; font-size:12px;}
+#centered div.blue p a { color:#fff; font-size:12px; text-decoration:none; padding-left: 36px; }
+#centered div.blue p a:hover { color:#f4f4f4; } 
+#centered div.loud { float:left; width:630px; margin:10px; font-size:34px; line-height:42px;}
+#centered p.title {text-align:center; font-size:36px; color:#292f3a; margin:60px 0px 30px 0px;}
+#centered div.column_block {
+position:relative; float:left; width:890px; color:#292f3a; margin:10px 0px 0px 32px; font-size:17px; line-height:27px; text-align:justify;
+
+
+-webkit-column-width:		420px;
+
+				-moz-column-width:			420px;
+				-o-column-width:			420px;	
+				-ms-column-width:			420px;
+				column-width:				420px;
+
+				-webkit-column-rule-style:	0px outset #fff;
+				-moz-column-rule-style:		0px outset #fff;
+				-o-column-rule-style:		0px outset #fff;
+				-ms-column-rule-style:		0px outset #fff;
+				column-rule-style:			0px outset #fff;
+
+-moz-column-gap:50px; /* Firefox */
+-webkit-column-gap:50px; /* Safari and Chrome */
+column-gap:50px;
+
+column-count:2;
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+
+
+}
+
+#centered div.column_img {position:relative; float:left; margin:10px 32px 0px 30px; }
+
+#centered div.column_nojust {
+position:relative; float:left; width:890px; color:#292f3a; margin:10px 20px 0px 32px; font-size:17px; line-height:27px; text-align:justify;
+}
+
+
+#centered div.colorBox {position:relative; float:left; width:240px; height:264px; color:#fff; font-size:18px; line-height:27px; padding:18px 30px; text-align:justify; }
+#centered div.actcolorBox { height:289px; margin-top:-12px; margin-bottom:-13px; }
+#centered div.colorBox p {margin:0px 0px 30px 0px; text-align:center; font-size:30px; font-weight:bold; }
+
+span.nletterSub { background:#e43d46; color:#fff; text-transform: uppercase; font-size:14px; white-space:nowrap; padding: 13px 20px; cursor:pointer; border:0px;}
+span.nletterSub:hover { background:#ce313a; }
+
+div.fbl {float:right; margin-right:20px;}
+
+
+body.mobile #header a, body.mobile #centered div.blue p a { font-size:18px;}
+body.android #centered div.column_block { font-size:13px; text-align:left;}
+body.nletter a { color:#fff; font-size:12px; text-decoration:none; padding-right: 36px; }
+
+a.btm {display:inline;}
+
+body.fancy input.fbl {cursor:pointer; width:286px;float:left;clear:both; background: #747986 url(/images/bg_button_o.png) right top no-repeat;}
+body.fancy input.fbl:hover {background: #384bac url(/images/bg_button_fb.png) right top no-repeat}
+
+#getNations {
+  font-size:15px;
+height:40px;
+background:#ebecf0; 
+left:12px; top:-8px; border:0px; width:96%; height:41px; padding: 5px 10px;
+}
+
+#getNations option { background:#ebecf0; color:#7f8289;  }
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

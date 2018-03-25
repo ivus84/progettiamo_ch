@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* content block 1 Classifica Home */
+#mcs_container{position:relative; top:27px; margin: 0px; width:213px; font-size:11px; color:#000000; height:150px; padding:0px;border:solid 1px #c7c7c7}
+#mcs_container .customScrollBox{position:relative; top:-25px; left:10px; width:205px; height:97%; overflow:hidden;}
+#mcs_container .customScrollBox .container{position:relative; width:180px; margin-top:0px; top:2px; float:left;}
+#mcs_container .customScrollBox .content{clear:both ;padding:0px;;height:100%}
+
+#mcs_container .dragger_container{position:relative; width:3px; height:135px; float:left; margin:5px 0px 0px 15px; background:#3b3a3a; cursor:pointer -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:s-resize;}
+#mcs_container .dragger{position:absolute; width:3px; height:40px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; cursor:pointer; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+#mcs_container .dragger_pressed{position:absolute; width:5px; margin-left:-1px; height:40px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:s-resize;}
+
+#mcs_container .scrollUpBtn,#mcs_container .scrollDownBtn{position:absolute; display:inline-block; width:14px; height:15px; margin-right:12px; text-decoration:none; right:0; filter:alpha(opacity=20); -moz-opacity:0.20; -khtml-opacity:0.20; opacity:0.20;}
+#mcs_container .scrollUpBtn{top:16px; }
+#mcs_container .scrollDownBtn{bottom:12px; }
+#mcs_container .scrollUpBtn:hover,#mcs_container .scrollDownBtn:hover{filter:alpha(opacity=60); -moz-opacity:0.60; -khtml-opacity:0.60; opacity:0.60;}
+
+/* content block 2 Right  */
+#mcs2_container{position:relative; top:4px; margin: 0px; width:260px; font-size:11px; color:#000000; height:426px; padding:0px; }
+#mcs2_container .customScrollBox{position:relative; top:0px; left:0px; width:260px; height:100%; overflow:hidden;}
+#mcs2_container .customScrollBox .container{position:relative; width:255px; margin-top:0px; top:2px; float:left;}
+#mcs2_container .customScrollBox .content{clear:both;padding:0px;;height:100%}
+
+#mcs2_container .dragger_container{position:absolute; display:none;top:0px; right:0; width:3px; height:423px; margin:0px 1px 5px 30px; background-color:#999999; cursor:pointer -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:s-resize;}
+#mcs2_container .dragger{position:absolute; width:3px; height:40px; background:#666666; text-align:center; line-height:60px; color:#666; overflow:hidden; cursor:pointer; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+#mcs2_container .dragger_pressed{position:absolute; width:5px; margin-left:-1px; height:40px; background-color:#666666; text-align:center; line-height:60px; color:#666; overflow:hidden; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:s-resize;}
+
+#mcs2_container .scrollUpBtn,#mcs_container2 .scrollDownBtn{position:absolute; display:inline-block; width:14px; height:15px; margin-right:22px; text-decoration:none; right:0; filter:alpha(opacity=30); -moz-opacity:0.30; -khtml-opacity:0.30; opacity:0.30;}
+#mcs2_container .scrollUpBtn:hover,#mcs_container .scrollDownBtn:hover{filter:alpha(opacity=60); -moz-opacity:0.60; -khtml-opacity:0.60; opacity:0.60;}
+
+
+
+/* content block 4 Tour */
+#mcs4_container{position:relative; left:-10px; top:6px; margin:0; width:620px; height:310px; padding:0px; }
+#mcs4_container .customScrollBox{position:relative; width:620px; overflow:auto;}
+#mcs4_container .customScrollBox .horWrapper{position:relative; left:0;}
+#mcs4_container .customScrollBox .container{position:relative; left:0; display:inline-block; *display:inline;}
+#mcs4_container .customScrollBox .content{clear:both;}
+#mcs4_container .customScrollBox .content p{padding:5px; margin:0 5px;}
+#mcs4_container .customScrollBox .content p img{margin-right:5px;}
+
+#mcs4_container .dragger_container{position:relative; width:565px; height:6px; float:left; margin:10px 0px 2px 30px; background:#3b3a3a; cursor:pointer -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:e-resize;}
+#mcs4_container .dragger{position:absolute; top:0px; width:100px; height:6px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; cursor:pointer; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+#mcs4_container .dragger_pressed{position:absolute; width:100px; margin-top:-1px; height:8px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:e-resize;}
+
+#mcs4_container .scrollUpBtn,#mcs4_container .scrollDownBtn{position:absolute; display:inline-block; width:14px; height:15px; text-decoration:none; right:0; filter:alpha(opacity=20); -moz-opacity:0.20; -khtml-opacity:0.20; opacity:0.20;}
+#mcs4_container .scrollUpBtn{position:relative; left:10px; top:-11px;background:url(/images/mcs_btnLeft.png) left top no-repeat; }
+#mcs4_container .scrollDownBtn{position:relative; top:-11px; left:585px; background:url(/images/mcs_btnRight.png) left top no-repeat; }
+#mcs4_container .scrollUpBtn:hover,#mcs_container .scrollDownBtn:hover{filter:alpha(opacity=60); -moz-opacity:0.60; -khtml-opacity:0.60; opacity:0.60;}
+
+
+
+/* content block 5 Squadra */
+#mcs5_container{position:relative; left:20px; top:0px; margin:0; width:890px; height:220px; padding:0 10px; }
+#mcs5_container .customScrollBox{position:relative; width:890px; overflow:hidden;}
+#mcs5_container .customScrollBox .horWrapper{position:relative; left:0;}
+#mcs5_container .customScrollBox .container{position:relative; left:0; display:inline-block; *display:inline;}
+#mcs5_container .customScrollBox .content{clear:both;}
+#mcs5_container .customScrollBox .content p{padding:5px; margin:0 5px;}
+#mcs5_container .customScrollBox .content p img{margin-right:5px;}
+
+#mcs5_container .dragger_container{position:relative; width:840px; height:6px; float:left; margin:10px 0px 2px 20px; background:#3b3a3a; cursor:pointer -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:e-resize;}
+#mcs5_container .dragger{position:absolute; top:0px; width:100px; height:6px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; cursor:pointer; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+#mcs5_container .dragger_pressed{position:absolute; width:100px; margin-top:-1px; height:8px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:e-resize;}
+
+#mcs5_container .scrollUpBtn,#mcs5_container .scrollDownBtn{position:absolute; display:inline-block; width:14px; height:15px; text-decoration:none; right:0; filter:alpha(opacity=20); -moz-opacity:0.20; -khtml-opacity:0.20; opacity:0.20;}
+#mcs5_container .scrollUpBtn{position:relative; left:3px; top:-11px;background:url(/images/mcs_btnLeft.png) left top no-repeat; }
+#mcs5_container .scrollDownBtn{position:relative; top:-11px; left:850px; background:url(/images/mcs_btnRight.png) left top no-repeat; }
+#mcs5_container .scrollUpBtn:hover,#mcs_container .scrollDownBtn:hover{filter:alpha(opacity=60); -moz-opacity:0.60; -khtml-opacity:0.60; opacity:0.60;}

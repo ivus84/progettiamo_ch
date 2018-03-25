@@ -1,0 +1,12 @@
+
+p.titolo, h1.titolo { font-family: Helvetica, arial, sans-serif; font-size:28px; line-height:24px; font-weight:bold; margin: 0px 0px 2px 0px; color: #ff2b06; } 
+p { font-family: georgia, 'Times New Roman', serif; font-size:14px; line-height:17px; padding:0px;}
+p strong{ font-family: Helvetica, arial, sans-serif;  font-size:14px; line-height:18px; padding:0px;}
+p img { width: 100%; }
+
+
+body { font-family: arial,verdana, sans-serif; color: #4b5c66; text-decoration:none;  font-size: 13px; line-height:19px;}
+
+a {color: #4b5c66;}
+td { color: #4b5c66 }
+li{ margin-top:5px; padding-right:20px}
