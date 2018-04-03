@@ -126,6 +126,7 @@ TA_nome = Replace(TA_nome,"&#41;" , ")")
 TA_nome = Replace(TA_nome, "&nbsp;&nbsp;",  CHR(32) & CHR(32))
 TA_nome = Replace(TA_nome, "&quot;", CHR(34))
 TA_nome = Replace(TA_nome, "&nbsp;", CHR(37))
+    ta_nome = convertfromutf8( ta_nome )
 end if
 
 if Len(TA_linkto)>0 Then TA_linkto = Replace(TA_linkto,"&#39;", "'")

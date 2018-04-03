@@ -83,7 +83,7 @@ vallangtitle=recordset("TX_keywords"&vallv)
 <%record_language.movenext
 Loop
 record_language.movefirst%></p>
-<b>Etichetta menù</b>
+<b>Etichetta men&ugrave;</b>
 <p align="right">
 <%
 do while not record_language.eof

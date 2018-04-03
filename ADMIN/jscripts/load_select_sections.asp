@@ -48,6 +48,7 @@ col1="EFEFEF"
 do while not recordset5.eof
 IDr=recordset5("ID")
 nome=recordset5("TA_nome")
+    nome = convertfromutf8( nome )
 LO_news=recordset5("LO_news")
 LO_menu2=recordset5("LO_menu2")
 scelti=recordset5("scelti")

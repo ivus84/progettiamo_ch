@@ -28,6 +28,7 @@ recordset.movefirst
 n=0
 do while not recordset.eof
 nome=recordset("TA_nome")
+    nome = convertfromutf8 ( nome )
 pos=recordset("IN_ordine")
 ref=recordset("ID")
 If color1="#fff" Then

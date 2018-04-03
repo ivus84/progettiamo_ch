@@ -156,7 +156,7 @@ end if
 if inputItem="TX" And colname<>"TX_testo" AND Session("tab")<>"oggetti" AND Session("tab")<>"p_comments" Then
 
     if len(valore)>0 then valore=RepText(valore)
-
+    valore = convertfromutf8(valore)
 	if colName="TX_datadef" then
 	    Session("test"&i)="Definizione campi"
 	    inidatadef=valore

@@ -46,6 +46,7 @@ ID=recordset("ID")
 serierefs=serierefs&ID
 
 nomesezione=recordset("TA_nome")
+    nomesezione = convertfromutf8( nomesezione ) 
 nome_default=recordset("TA_nomedef")
 pubblicas=recordset("LO_pubblica")
 isnews=recordset("LO_news")

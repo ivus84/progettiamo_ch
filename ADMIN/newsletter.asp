@@ -43,6 +43,7 @@ do while not recordset.eof
 
 nn=recordset("ID")
 tit=recordset("TA_nome")
+    tit = convertfromutf8(tit)
 creata=recordset("DT_data")
 inviata=recordset("LO_sent")
 dtinviata=inviata
