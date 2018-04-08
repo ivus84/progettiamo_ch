@@ -169,8 +169,8 @@ str_prev_page="torna alla pagina precedente"
 str_pass_recover="Recupero password"
 
 str_or= "oppure"
-str_already_registered = "Sei gi&agrave; registrato a progettiamo.ch?<br/>Allora completa qui sotto."
-str_register = "Non sei gi&agrave; registrato?<br/>Gi&agrave;&nbsp;<span style='color: #f0af10'>#num_pers_reg#</span> persone sono entrate a far parte della comunit&agrave; di progettiamo.ch.<br/>I tuoi dati resteranno al sicuro e riceverai la nostra newsletter informativa sui progetti e le nostre iniziative.<br/><br/><br/>Ora tocca a te!"
+str_already_registered = "Sei gi&agrave; registrata/o a progettiamo.ch?<br/>Allora completa qui sotto."
+str_register = "Non sei ancora registrata/o?<br/>Gi&agrave;&nbsp;<span style='color: #f0af10'>#num_pers_reg#</span> persone sono entrate a far parte della comunit&agrave; di progettiamo.ch.<br/><br/>I tuoi dati resteranno al sicuro e riceverai la nostra newsletter sui progetti e le nostre iniziative.<br/><br/>Ora tocca a te!"
     str_register_1 = "REGISTRATI"
 
 'SIGNUP PAGE

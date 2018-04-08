@@ -59,7 +59,7 @@ end If
 
 
 	do while not record.eof
-	nomel=record("TA_nome")
+	nomel=convertfromutf8(record("TA_nome"))
 	vall=record("IN_valore")
 	refl=record("ID")
 

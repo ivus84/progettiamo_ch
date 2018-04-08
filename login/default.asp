@@ -50,7 +50,7 @@ If Len(referrer_page)>0 Then referrer_pageorig=Replace(referrer_page,"/donate/",
                             </p>
                         </div>
                         <p style="padding-left: 11px">
-                            <input type="text" class="sb" value="<%=str_entra%>" style="cursor: pointer; width: 286px;  clear: both; background: #9ba1b3 url(/images/bg_button.png) right top no-repeat;" onfocus="this.blur()" onclick="$('#formLogin').submit()" />
+                            <input type="text" class="login" value="<%=str_entra%>" style="cursor: pointer; width: 286px;  clear: both; " onfocus="this.blur()" onclick="$('#formLogin').submit()" />
                             <input type="submit" style="width: 1px; height: 1px; overflow: hidden; display:none;opacity: 0; filter: alpha(opacity=0)" />
                         </p>
 
@@ -62,10 +62,10 @@ If Len(referrer_page)>0 Then referrer_pageorig=Replace(referrer_page,"/donate/",
                 </div>
                 <div class="column reg" style="width:47%;border-left: 1px solid white; ">
                     <div style="width: 316px;padding-left:30px; ">
-                        <p class="title " style="text-align: justify; width:100%; font-size: 18px; margin: 5px 0px 6px 10px; font-weight: normal; height:200px"><%=str_register%></p>
+                        <p class="title " style="text-align: left; width:100%; font-size: 18px; margin: 5px 0px 6px 10px; font-weight: normal; height:200px"><%=str_register%></p>
 
                         <p class="crt" style="padding: 0px 11px">
-                            <input type="text" class="sb" value="<%=str_register_1%>" style="cursor: pointer; width: 286px; float: left; clear: both; background: #747986 url(/images/bg_button_o.png) right top no-repeat;" onfocus="this.blur()" onclick="document.location='/signin/'" />
+                            <input type="text" class="login" value="<%=str_register_1%>" style="cursor: pointer; width: 286px; float: left; clear: both; " onfocus="this.blur()" onclick="document.location='/signin/'" />
                       
                         </p>
                     </div>
@@ -79,7 +79,7 @@ If Len(referrer_page)>0 Then referrer_pageorig=Replace(referrer_page,"/donate/",
             <input type="text" class="sb fbl" value="<%=str_facebook_login%>" onfocus="this.blur()" onclick="fb_signup('<%=referrer_page %>')" />
 
         </p>
-        <p class="bck" style="padding:15px 40px; width:100%;text-align:center; color: #fff;"><a href="<%=referrer_pageorig%>" style="color:#fff; font-weight:bold; font-size:18px"><%=str_prev_page%></a></p>
+        <p class="bck" style="padding:15px 20px; width:100%;text-align:center; color: #fff;"><a href="<%=referrer_pageorig%>" style="color:#fff; font-weight:bold; font-size:18px"><%=str_prev_page%></a></p>
         <p style=" text-align: center; font-size: 12px; width:100%; clear: both">&copy; <%=year(now) %> Progettiamo.ch&nbsp;&nbsp;|&nbsp;&nbsp;All rights reserved</p>
         
         <div class="recover" style="display: none"><%=str_pass_recover%></div>

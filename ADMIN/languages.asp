@@ -15,7 +15,7 @@ set record=connection.execute(SQL)
 
 do while not record.eof
 reflang=LCase(record("ID"))
-nomel=record("TA_nome")
+nomel=convertfromutf8(record("TA_nome"))
 vall=record("IN_valore")
 LO_attiva=record("LO_attiva")
 LO_pubblica=record("LO_pubblica")

@@ -87,7 +87,7 @@ tot_subscribers=rec1("subscribers")
 SQL=preSQL&" AND LO_in_evidenza=False"
 Set recpre=connection.execute(SQL)
 Do While Not recpre.eof
-Response.write "<option value="""&recpre("ID")&""">"&recpre("TA_nome")&"</option>"
+Response.write "<option value="""&recpre("ID")&""">"&convertfromutf8(recpre("TA_nome"))&"</option>"
 recpre.movenext
 loop%>
 </select></p>
@@ -101,7 +101,7 @@ loop%>
 SQL=preSQL&" AND LO_newsletter=False"
 Set recpre=connection.execute(SQL)
 Do While Not recpre.eof
-Response.write "<option value="""&recpre("ID")&""">"&recpre("TA_nome")&"</option>"
+Response.write "<option value="""&recpre("ID")&""">"&convertfromutf8(recpre("TA_nome"))&"</option>"
 recpre.movenext
 loop%>
 </select></p>

@@ -12,7 +12,7 @@ set record=connection.execute(SQL1)
 
 if not record.eof then
 Session("lang")=record("IN_valore")
-Session("nomelang")=record("TA_nome")
+Session("nomelang")=convertfromutf8(record("TA_nome"))
 Session("mainlang")=record("IN_valore")
 Session("reflang")="_"&Session("lang")
 else
@@ -20,7 +20,7 @@ SQL1="SELECT * FROM lingue WHERE LO_attiva=True ORDER BY IN_ordine ASC"
 set record=connection.execute(SQL1)
 if not record.eof then
 Session("lang")=record("IN_valore")
-Session("nomelang")=record("TA_nome")
+Session("nomelang")=convertfromutf8(record("TA_nome"))
 Session("mainlang")=record("IN_valore")
 Session("reflang")="_"&Session("lang")
 else
@@ -34,7 +34,7 @@ else
 SQL1="SELECT TA_nome,TA_nomev FROM lingue WHERE ID="&Session("lang")+1
 set record=connection.execute(SQL1)
 
-Session("nomelang")=record("TA_nome")
+Session("nomelang")=convertfromutf8(record("TA_nome"))
 Session("nomelangv")=record("TA_nomev")
 
 end if
@@ -47,7 +47,7 @@ set recordset00=connection.execute(SQL00)
 if not recordset00.eof then
 limitedlanguage=True
 Session("lang")=recordset00("IN_valore")
-Session("nomelang")=recordset00("TA_nome")
+Session("nomelang")=convertfromutf8(recordset00("TA_nome"))
 Session("nomelangv")=recordset00("TA_nomev")
 end if
 

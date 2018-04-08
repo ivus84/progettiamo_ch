@@ -20,6 +20,7 @@ str_months=",January, February, March, April, May, June, July, August, September
 str_giorni="days"
 str_mesi="months"
 str_tutto="All"
+str_tutto="All"
 str_area="area"
 str_tutte_aree="All areas"
 str_ricerca="Search"
@@ -171,7 +172,7 @@ str_pass_recover="recover password"
 
     str_or= "oppure"
 str_already_registered = "Are you already registered to progettiamo.ch?<br/>Then please complete below."
-str_register = "Not yet registered?<br/>Already&nbsp;<span style='color: #f0af10'>#num_pers_reg#</span> people have joined the community of progettiamo.ch.<br/>Your data will remain safe and you will receive our newsletter about our projects and initiatives.<br/><br/><br/>Now it's your turn!"
+str_register = "Not yet registered?<br/>Already&nbsp;<span style='color: #f0af10'>#num_pers_reg#</span> people have joined the community of progettiamo.ch.<br/><br/>Your data will remain safe and you will receive our newsletter about our projects and initiatives.<br/><br/>Now it's your turn!"
     str_register_1 = "SIGN IN"
 
 'SIGNUP PAGE

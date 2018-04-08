@@ -18,8 +18,7 @@ langs="/it/,/de/,/en/,/fr/,/ti/"
 end if
 
 if IsNull(Session("lang")) then Session("lang")=0
-if session(lang) = "" then session("lang") = 0
-'response.write "SessionnLang"&Session("lang")
+
 Session("reflang")=""
 if Session("lang")>0 Then Session("reflang")="_"&Session("lang")
 

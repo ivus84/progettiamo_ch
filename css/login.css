@@ -17,7 +17,7 @@ min-width:600px;
 }
 
 body.fancy {text-align:left; margin:20px; overflow-y: auto; }
-body.fancy p { font-size:15px; line-height:19px; text-align:justify; width:85% }
+body.fancy p { font-size:15px; line-height:19px; text-align:justify; /*width:85%*/ }
 body.fancy p.title {font-weight:bold; margin:0px 0px 30px 0px; font-size:28px;}
 body.fancy input { border:solid 0px; background:#ebecf0; color:#7f8289; font-size:14px; padding:15px; width:285px; height:12px; margin-bottom:1px; -webkit-appearance:none; -webkit-autofill:none }
 
@@ -48,6 +48,8 @@ body.fancy input.pwd, body.fancy #eml {padding: 15px 15px 15px 80px !important; 
 body.fancy input:focus { color: #292f3a; font-weight:bold; outline:none }
 body.fancy input.str { font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 body.fancy input.sb { background:#7f8289 url(../images/check.png) right top no-repeat; text-align:left; color:#fff; width:285px; height:22px; text-transform: uppercase; font-size:14px; white-space:nowrap; padding: 10px 15px 10px 15px; cursor:pointer; border:0px;}
+body input.login { background: #9ba1b3 url(/images/bg_button.png) right top no-repeat; text-align:left; color:#fff; width:285px; height:22px; text-transform: uppercase; font-size:14px; white-space:nowrap; padding: 10px 15px 10px 15px; cursor:pointer; border:0px;}
+body input.login:hover { background: #747986 url(/images/bg_button_o.png) right top no-repeat; text-align:left; color:#fff; width:285px; height:22px; text-transform: uppercase; font-size:14px; white-space:nowrap; padding: 10px 15px 10px 15px; cursor:pointer; border:0px;}
 body.fancy input.sbs { background:#7f8289 url(../images/check_ove.png) right top no-repeat; }
 body.fancy input.ch { background:#363d49;  border-radius:10px; text-align:center; color:#fff; width:103px; height:20px; text-transform: uppercase; font-size:14px; white-space:nowrap; padding: 10px 15px 10px 15px; cursor:pointer; border:solid 1px #363d49;}
 body.fancy input.ch:hover { background:#292f3a; }
