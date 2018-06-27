@@ -85,3 +85,7 @@ $('input[name="TA_citta"]').val('<%=setcity%>')
  </script>
  </body>
 </html>
+<%
+ Response.CharSet = "ISO-8859-1"
+Response.CodePage = 28591
+%>

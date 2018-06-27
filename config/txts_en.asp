@@ -259,4 +259,11 @@ str_confirm_change_email_err ="The new email address is already associated with 
 str_confirm_change_email="Confirmation: email address modification is successfully completed."
 str_confirm_delete_account="Confirmation: account cancellation is successfully completed."
 
+     str_cookie_policy="This website or its third-party tools use cookies, which are necessary to its functioning and required to achieve the purposes illustrated in the <a href=""#"">cookie policy</a>. If you want to know more or withdraw your consent to all or some of the cookies, please refer to the cookie policy.By closing this banner, scrolling this page, clicking a link or continuing to browse otherwise, you agree to the use of cookies."
+    str_chiudi_cookie="Chiudi"
+    str_privacy_policy_login="Enrolling the services offered from progettiamo.ch you confirm to have read and accepted the <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2220/termini-e-condizioni-della-piattaforma-progettiamoch"">terms and the conditions</a> of service and our <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy"">privacy policy</a>. If you use the button &quot;Login with Facebook&quot;, some personal information will be shared with progettiamo.ch, please consult our <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy"">privacy policy</a>."
+    str_privacy_policy_news="Enrolling the services offered from progettiamo.ch you confirm to have read and accepted the <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2220/termini-e-condizioni-della-piattaforma-progettiamoch"">terms and the conditions</a> of service and our <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy"">privacy policy</a>."
+    str_chiudi_privacy_policy_login="Chiudi"
+    str_privacy_policy_title = "WARNING"
+
 %>

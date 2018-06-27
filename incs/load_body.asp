@@ -46,7 +46,34 @@ mesi=split(str_months,",")
             FB.XFBML.parse(); 
             $('#fbPage').css('display', 'inline');
            
-        }, 300);  
+        }, 300);
+        $.cookieBar({message: '<%=str_cookie_policy %>',
+acceptButton: true,
+acceptText: '<%=str_chiudi_cookie %>',
+acceptFunction: null,
+declineButton: false,
+declineText: 'Disable Cookies',
+declineFunction: null,
+policyButton: true,
+policyText: '',
+policyURL: '/?2221/privacy',
+autoEnable: true,
+acceptOnContinue: false,
+acceptOnScroll: 200,
+acceptAnyClick: false,
+expireDays: 365,
+renewOnVisit: false,
+forceShow: false,
+effect: 'slide',
+element: 'body',
+append: false,
+fixed: true,
+bottom: true,
+zindex: '10000',
+domain: 'www.progettiamo.ch',
+referrer: 'www.progettiamo.ch'
+
+});  
     }); 
 });
 </script>

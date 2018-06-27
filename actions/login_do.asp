@@ -4,6 +4,8 @@
 <!-- #include VIRTUAL = "/admin/clsSHA-1.asp" -->
 
 <%
+    Response.CharSet = "ISO-8859-1"
+Response.CodePage = 28591
 email=request("email")
 password=request("password")
 gotoloc=request("goto")
@@ -32,8 +34,8 @@ Set ObjSHA1 = Nothing
 
 	If checkpass<>StrDigest Then
 
-	'Response.write"PASSWORD"
-	'Response.end
+	Response.write"PASSWORD"
+	Response.end
 	End If
 
 

@@ -25,7 +25,7 @@ If Len(referrer_page)>0 Then referrer_pageorig=Replace(referrer_page,"/donate/",
     <div style="position: relative; margin: 0 auto; width: 100%;">
         <p style="clear: both; text-align: center; width: 100%">
             <img src="/images/logo_small.png" alt="" style="margin: 25px 108px;" /></p>
-        <form id="formLogin" method="post" style="margin: 0px">
+        <form id="formLogin" method="post" style="margin: 0px" accept-charset="ISO-8859-1">
             <div class="row">
                 <div class="column" style="">
                     <div style="float:right;padding-bottom:5px; padding-right:40px">
@@ -121,6 +121,8 @@ If Len(referrer_page)>0 Then referrer_pageorig=Replace(referrer_page,"/donate/",
     var setMail;
 
     </script>
-
+    <div id="dialog" title="Titolo">
+      <p><%=str_privacy_policy_login %></p>
+    </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-
+﻿
 <%
 if isnull(Session("lang"))=True then Session("lang")=0
 
@@ -92,21 +92,23 @@ fb_lang=Mid(html_lang,1,2)&"_"&UCase(Mid(html_lang,4))
 <link type="text/css" rel="stylesheet" href="/css/styles.1.css" media="all" />
 <link type="text/css" rel="stylesheet" href="/source/jquery.fancybox.css" media="all" />
 <link type="text/css" rel="stylesheet" href="/css/tooltipster.css" media="all" />
-
+    <link href="/css/jquery.cookiebar.css" rel="stylesheet" />
 <%if len(Session("favicon"))>0 then%><link rel="shortcut icon" href="/img.asp?path=<%=Session("favicon")%>" /><%end if%>
 <link rel="alternate" type="application/xml+rss" title="<%=Session("nomeprogetto")%> Sitemap" href="http://<%=servername%>/sitemap_xml.asp" />
 <link rel="alternate" type="application/rss+xml" title="Progetti attivi su progettiamo.ch" href="http://<%=servername%>/rss/"/>
- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ 
 <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="/source/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="/js/src.site.1.js"></script>
 <script type="text/javascript" src="/config/txt.<%=main_lang%>.js"></script>
-<script type="text/javascript" src="/source/jquery.fancybox.pack.js"></script>
+
 <script type="text/javascript" src="/js/jquery.hypher.js"></script>
     <script type="text/javascript" src="/js/jquery.sharrre.min.js"></script>
 <script type="text/javascript" src="/js/jquery.tooltipster.min.js"></script>
    
-
+    <script src="/js/jquery.cookiebar.js"></script>
  
 <%if len(Session("headerscript"))>0 then Response.write Session("headerscript")%>
 

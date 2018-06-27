@@ -136,7 +136,8 @@ div.fbl {float:right; margin-right:20px;}
 
 body.mobile #header a, body.mobile #centered div.blue p a { font-size:18px;}
 body.android #centered div.column_block { font-size:13px; text-align:left;}
-body.nletter a { color:#fff; font-size:12px; text-decoration:none; padding-right: 36px; }
+body.nletter a { color:#fff; font-size:12px; text-decoration:none;  /*padding-right: 36px; */}
+body.nletter a.fancybox-close {  padding-right: 0px; }
 
 a.btm {display:inline;}
 

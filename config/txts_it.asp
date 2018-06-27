@@ -258,4 +258,11 @@ str_confirm_change_email_err ="Il nuovo indirizzo e-mail &egrave; gi&agrave; ass
 str_confirm_change_email="Conferma modifica indirizzo e-mail completata con successo."
 
 str_confirm_delete_account="Conferma cancellazione account completata con successo"
+
+    str_cookie_policy="Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie necessari al funzionamento ed utili alle finalit&agrave; illustrate nella cookie policy. Se vuoi saperne di pi&ugrave; o negare il consenso a tutti o ad alcuni cookie, consulta la <a href=""/?2222/cookie-policy"">cookie policy</a>. Chiudendo questo banner, scorrendo questa pagina, cliccando su un link o proseguendo la navigazione in altra maniera, acconsenti all&apos;uso dei cookie."
+    str_chiudi_cookie="Chiudi"
+    str_privacy_policy_login="Se ti iscrivi a progettiamo.ch hai letto e accettato i <a style=""color: #c0c0c0; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2220/termini-e-condizioni-della-piattaforma-progettiamoch"">termini e le condizioni di servizio</a> e la nostra <a style=""color: #c0c0c0; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy""> privacy policy</a>. Se usi il bottone ""Accedi con Facebook"" alcune informazioni personali saranno condivise con  progettiamo.ch, consulta la nostra <a style=""color: #c0c0c0; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy"">privacy policy</a>."
+    str_privacy_policy_news="Se ti iscrivi a progettiamo.ch hai letto e accettato i <a style=""color: #c0c0c0; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2220/termini-e-condizioni-della-piattaforma-progettiamoch"">termini e le condizioni di servizio</a> e la nostra <a style=""color: #c0c0c0; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy""> privacy policy</a>."
+    str_chiudi_privacy_policy_login="Chiudi"
+    str_privacy_policy_title = "AVVISO"
 %>

@@ -33,7 +33,7 @@ Set ObjSHA1 = New clsSHA1
 StrDigest = ObjSHA1.SecureHash(pwd0)
 Set ObjSHA1 = Nothing
     
-	If checkpass<>StrDigest and 1=2 Then
+	If checkpass<>StrDigest Then
 	Response.write"PASSWORD"
 	Response.end
 	End If

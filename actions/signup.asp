@@ -5,8 +5,10 @@
 <!--#INCLUDE VIRTUAL="./config/txts_notifiche_it.asp"-->
 
 <%
-
+Response.CharSet = "ISO-8859-1"
+Response.CodePage = 28591
 getform=request.form
+getform = convertfromutf8(getform)
 If Len(getform)>0 Then 
 If Len(getform)>0 Then getform=Replace(getform,"+"," ")
 If Len(getform)>0 Then getform=Replace(getform,"%40","@")
@@ -17,6 +19,7 @@ getform=Split(getform,"&")
 email=request("TA_email")
 If Len(email)>0 Then email=lcase(email)
 emailclean=email
+
 email = EnDeCrypt(email, npass, 1)
 
 SQL="SELECT * FROM registeredusers WHERE TA_email='"&email&"' OR TA_email_recupero='"&email&"'"
@@ -47,42 +50,43 @@ encryptedFields="TA_email,TA_telefono,TA_natel"
 SQL="INSERT INTO registeredusers ("
 SQL1=" VALUES ("
 For x=0 To Ubound(getform)
-gtval=getform(x)
-gtval=Split(gtval,"=")
-nval=gtval(0)
-vval=gtval(1)
+	gtval=getform(x)
+	gtval=Split(gtval,"=")
+	nval=gtval(0)
+	vval=gtval(1)
 
-If Mid(nval,1,3)="TA_" And nval<>"TA_password" And nval<>"TA_password_1" Then 
-If Len(vval)>0 Then vval=Replace(vval,"'","''")
-If vval="ente/ragione sociale" Then vval=""
-SQL=SQL&nval&", "
+	If Mid(nval,1,3)="TA_" And nval<>"TA_password" And nval<>"TA_password_1" Then 
+		If Len(vval)>0 Then vval=Replace(vval,"'","''")
+		If vval="ente/ragione sociale" Then vval=""
+		SQL=SQL&nval&", "
 
-If InStr(encryptedFields,nval) Then 
+		If InStr(encryptedFields,nval) Then 
+			if nval="TA_email" then
+				vval = EnDeCrypt(emailclean, npass, 1)
+			else 
+				'response.write nval
+				'response.write vval
+				vval = URLDecode(vval)
+				vval = EnDeCrypt(vval, npass, 1)
+			end if
+		
+		Else
+			vval = URLDecode(vval)
+		End if
+		SQL1=SQL1&"'"&vval&"', "
+	End if
 
-'response.write nval
-'response.write vval
 
-vval = EnDeCrypt(vval, npass, 1)
+	If Mid(nval,1,3)="CO_" Then 
+	SQL=SQL&nval&", "
+	SQL1=SQL1&""&vval&", "
+	End if
 
-'response.write vval
-Else
-vval = URLDecode(vval)
-End if
-
-SQL1=SQL1&"'"&vval&"', "
-End if
-
-
-If Mid(nval,1,3)="CO_" Then 
-SQL=SQL&nval&", "
-SQL1=SQL1&""&vval&", "
-End if
-
-If Mid(nval,1,3)="DT_" Then 
-vvalg=split(vval,".")
-SQL=SQL&nval&", "
-SQL1=SQL1&"#"&vvalg(1)&"/"&vvalg(0)&"/"&vvalg(2)&"#, "
-End if
+	If Mid(nval,1,3)="DT_" Then 
+	vvalg=split(vval,".")
+	SQL=SQL&nval&", "
+	SQL1=SQL1&"#"&vvalg(1)&"/"&vvalg(0)&"/"&vvalg(2)&"#, "
+	End if
 
 
 Next

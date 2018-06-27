@@ -257,4 +257,11 @@ str_confirm_change_email_err ="La nouvelle adresse email est d&eacute;jà associ
 str_confirm_change_email="Confirmation: modification de l’adresse email est r&eacute;ussie."
 
 str_confirm_delete_account="Confirmation: suppresion du compte est r&eacute;ussie."
+
+    str_cookie_policy="Ce site ou les outils tiers utilis&eacute;s par celui-ci utilisent des cookies nécessaires à l&apos;opération et utiles aux fins décrites dans la <a href=""#"">cookie policy</a>. Si vous voulez en savoir plus ou désactiver certains ou tous les cookies, consultez la cookie policy (link). En fermant cette bannière, en faisant défiler cette page, en cliquant sur un lien ou en poursuivant la navigation de toute autre manière, vous consentez à l'utilisation de cookies."
+    str_chiudi_cookie="Chiudi"
+    str_privacy_policy_login="Si vous vous inscrivez &agrave; progettiamo.ch vous avez lu et accept&eacute; les <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2220/termini-e-condizioni-della-piattaforma-progettiamoch"">termes et conditions de service</a> et notre <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy""> Privacy Policy</a>. Si vous utilisez le bouton &quot;Login via Facebook&quot;, des informations personnelles seront partag&eacute;es avec progettiamo.ch, veuillez consulter notre <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy"">Privacy Policy</a>."
+    str_privacy_policy_news="Si vous vous inscrivez &agrave; progettiamo.ch vous avez lu et accept&eacute; les <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2220/termini-e-condizioni-della-piattaforma-progettiamoch"">termes et conditions de service</a> et notre <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy""> Privacy Policy</a>."
+    str_chiudi_privacy_policy_login="Chiudi"
+    str_privacy_policy_title = "AVIS"
 %>

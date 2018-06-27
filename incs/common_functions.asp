@@ -746,8 +746,8 @@ Function ConvertFromUTF8(sIn)
         oIn.Position = 0
         oIn.CharSet = "UTF-8"
         length = len (sin)
-       
-        ConvertFromUTF8 = oIn.ReadText(length)
+        ConvertFromUTF8 = oIn.ReadText
+		'ConvertFromUTF8 = oIn.ReadText(length-1)
  
 
         

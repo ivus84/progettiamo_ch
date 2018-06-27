@@ -1,5 +1,8 @@
 
 <%
+
+Response.CharSet = "ISO-8859-1"
+Response.CodePage = 28591
 'MAIL HEADER AND FOOTER
 str_txt_notifica_body ="<html><head><meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" /></head><body style=""font-family:arial"">"
 str_txt_notifica_body_end ="<p>Grazie e a presto<br />Team Progettiamo.ch</p><p><img src="""&site_mainurl&"images/progettiamo_logo_mail.png""/></p></body></html>"

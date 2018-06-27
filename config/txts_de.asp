@@ -258,4 +258,10 @@ str_confirm_change_email_err ="Die neue E-Mail-Adresse ist bereits mit einem and
 str_confirm_change_email="Bestätigung der E-Mail-Adressenänderung erfolgreich abgeschlossen.."
 
 str_confirm_delete_account="Bestätigung der Kontolöschung erfolgreich abgeschlossen."
+     str_cookie_policy="Diese Website oder Tools von Drittanbietern verwenden Cookie, die für den Betrieb erforderlich sind und für die in den <a href=""#"">Cookie Policy</a> beschriebenen Zwecke nützlich sind. Wenn Sie mehr davon wissenwollen oder die Zustimmung zu jedem oder zu einigen Cookie  zu leugnen, befragt die Cookie Policy. Durch das Schließen dieses Banners, das Scrollen dieser Seite, das Klicken auf einen Link oder das Fortsetzen der Navigation auf andere Weise stimmen Sie der Verwendung von Cookies zu."
+    str_chiudi_cookie="Chiudi"
+    str_privacy_policy_login="Wenn Sie sich auf progettiamo.ch anmelden, haben Sie die <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2220/termini-e-condizioni-della-piattaforma-progettiamoch"">Nutzungsbedingungen</a> und unsere <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy""> Privacy Policy</a> gelesen und akzeptiert. Wenn Sie den &quot;Login mit Facebook&quot; Button benutzen, werden persönliche Daten an progettiamo.ch weitergegeben. Bitte beachten Sie unsere <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy"">Privacy Policy</a>."
+    str_privacy_policy_news="Wenn Sie sich auf progettiamo.ch anmelden, haben Sie die <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2220/termini-e-condizioni-della-piattaforma-progettiamoch"">Nutzungsbedingungen</a> und unsere <a style=""color: #444; font-family: helvetica, arial, sans-serif;font-size: 15px ;"" href=""/?2221/privacy""> Privacy Policy</a> gelesen und akzeptiert."
+    str_chiudi_privacy_policy_login="Chiudi"
+    str_privacy_policy_title = "ACHTUNG"
 %>
