@@ -20,6 +20,7 @@ If html_lang="en" Then html_lang="en-us"
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="/source/jquery.fancybox.pack.js"></script>
+ <% if not instr(Request.ServerVariables("URL"),"login") > 0 then %>
     <script src="../js/closure-library/closure/goog/base.js" type="text/javascript"></script>
     <script>
         goog.require('goog.proto2.Message');
@@ -28,7 +29,7 @@ If html_lang="en" Then html_lang="en-us"
     <script src="../js/i18n/phonenumbers/phonenumber.pb.js" type="text/javascript"></script>
     <script src="../js/i18n/phonenumbers/metadata.js" type="text/javascript"></script>
     <script src="../js/i18n/phonenumbers/phonenumberutil.js" type="text/javascript"></script>
-   
+   <%end if %>
 
 
 <script type="text/javascript" src="/js/src.site.1.js"></script>
