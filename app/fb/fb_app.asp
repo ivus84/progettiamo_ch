@@ -33,7 +33,7 @@ dim FACEBOOK_APP_ID: FACEBOOK_APP_ID = "119299055442524"
 dim FACEBOOK_SECRET: FACEBOOK_SECRET = "c2ab8c568be653df018d90a6562fbcb4"
   FACEBOOK_SECRET =  "7950fe7fd63edaa119491085073f9be8"
 dim FACEBOOK_SCOPE: FACEBOOK_SCOPE = "email,user_birthday,public_profile,user_location"
-
+    FACEBOOK_SCOPE = "email,public_profile"
 
 '' This is a dictionary object that contains the
 '' variables in the facebook cookie
